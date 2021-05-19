@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { count, length } from  './number.js';
 const flag=true;
-const count=23;
 const num="sum";
 function App() {
   return (
@@ -15,6 +15,9 @@ function App() {
           color:'black'
         }}>
           Hello World!
+        </p>
+        <p>
+          Экспорт переменной: "{count} * {length} = {count*length}"
         </p>
         <p>
           Вывод значения переменной: {num}
